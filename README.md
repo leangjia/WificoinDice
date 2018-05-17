@@ -5,24 +5,24 @@ Linux<br>
 Apache2<br>
 PHP<br>
 MySQL<br>
-bitcoind<br>
+wificoind<br>
 <br>
 == Installation ==<br>
 <br>
-bitcoind<br>
+wificoind<br>
 <br>
 1) Install bitcoind<br>
-2) Edit your bitcoin.conf in ~/.bitcoin/bitcoin.conf (you may need to create this) to look like the following, You will need to change the username and pass.<br>
+2) Edit your bitcoin.conf in ~/.wificoin/wificoin.conf (you may need to create this) to look like the following, You will need to change the username and pass.<br>
 <br>
 server=1<br>
 rpcuser=bitcoinrpc<br>
 rpcpassword=dfbufbSUBUSbf7763YSFYbfybsiyb87<br>
-rpcport=8332<br>
+rpcport=9665<br>
 <br>
-3) run bitcoind -daemon<br>
+3) run wificoind -daemon<br>
 4) let it fully sync to the network before moving on to the next part (or the script will not work)<br>
 <br>
-BitcoinDice<br>
+WifiDice<br>
 <br>
 1) Put in a directory of your choice<br>
 2) Change to the inc/ directory and change the permissions to 777 (chmod 777 *)<br>

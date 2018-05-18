@@ -1,4 +1,4 @@
-BitcoinDice is a popular Bitcoin Dice game, BitcoinDice is free to use and distribute.<br>
+wificoinDice is a popular wificoin Dice game, wificoinDice is free to use and distribute.<br>
 <br>
 == Pre-Requisites ==<br>
 Linux<br>
@@ -11,11 +11,11 @@ wificoind<br>
 <br>
 wificoind<br>
 <br>
-1) Install bitcoind<br>
-2) Edit your bitcoin.conf in ~/.wificoin/wificoin.conf (you may need to create this) to look like the following, You will need to change the username and pass.<br>
+1) Install wificoind<br>
+2) Edit your wificoin.conf in ~/.wificoin/wificoin.conf (you may need to create this) to look like the following, You will need to change the username and pass.<br>
 <br>
 server=1<br>
-rpcuser=bitcoinrpc<br>
+rpcuser=wificoinrpc<br>
 rpcpassword=dfbufbSUBUSbf7763YSFYbfybsiyb87<br>
 rpcport=9665<br>
 <br>
